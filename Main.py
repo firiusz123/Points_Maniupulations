@@ -121,6 +121,7 @@ pygame.init()
 
 # Create a window
 screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption('ManyPoints')
 
 # Set the initial position and radius of the circle
 center_x, center_y = screen_width // 2, screen_height // 2
